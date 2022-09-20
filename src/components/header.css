@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.header_bg {
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.header_title {
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px;
+  align-items: center;
+  letter-spacing: 0.4px;
+}
+.one_line {
+  font-size: 58px;
+}
+
+.I_color {
+  font-size: 58px;
+  opacity: 0.7;
+  color: #ffffff;
+}
+.cartoon_img {
+  transform: translate(363px, -188px);
+}

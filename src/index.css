@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafafa;
+}
+.upgrowth_title {
+  font-style: normal;
+  color: #333333;
+  font-size: 48px;
+  font-weight: 700;
+}
+.upgrowth_btn {
+  color: #7e7e7e;
+}
+.upgrowth_btn:active {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.upgrowth_btn:focus {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.Referrals_title {
+  color: #1a1a1a;
+}
+.color_circle {
+  display: flex;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+.referrals_size {
+  color: #6f6f6f;
+}
+.promo-card {
+  transform: translate(36px, 200px);
+  -webkit-transform: translate(36px, 200px);
+  -moz-transform: translate(36px, 200px);
+  -ms-transform: translate(36px, 200px);
+  -o-transform: translate(36px, 200px);
+}
+.coummunity_bg {
+  position: relative;
+  height: auto;
+  background-image: url(./images/community.png);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+.GridSection_bg {
+  margin-top: -10rem;
+  height: auto;
+  background-color: #8baecd;
+}
+.card_img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  border-radius: 50%;
+}
+.card_margin {
+  margin-top: 15%;
+}
+.col-span-2 .card_custom {
+  margin-bottom: 4%;
+}
+.card_custom:nth-child(2) {
+  margin-left: 72px;
+}
+.community_grid_sec {
+  padding-bottom: 100px;
+}
+.gridsec_point {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.transform_custom {
+  transform: translate(100px, 0px);
+  -webkit-transform: translate(100px, 0px);
+  -moz-transform: translate(100px, 0px);
+  -ms-transform: translate(100px, 0px);
+  -o-transform: translate(100px, 0px);
+}
+.person_window_parent .person_window {
+  width: 70%;
+}
+.grid-transform-content {
+  transform: translate(0px, 50px);
+  -webkit-transform: translate(0px, 50px);
+  -moz-transform: translate(0px, 50px);
+  -ms-transform: translate(0px, 50px);
+  -o-transform: translate(0px, 50px);
+}
