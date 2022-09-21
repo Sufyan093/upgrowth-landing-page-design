@@ -4,6 +4,11 @@ import Header from './components/Header'
 import UpgrowthFeatures from './components/UpgrowthFeatures'
 import Ourcommunity from './components/Ourcommunity'
 import GridSection from './components/GridSection'
+import SimplePricing from './components/SimplePricing'
+import IntegrationSection from './components/IntegrationSection'
+import ConversationSection from './components/ConversationSection'
+import Footer from './components/Footer'
+
 
 
 
@@ -17,6 +22,10 @@ function App() {
       <UpgrowthFeatures />
       <Ourcommunity />
       <GridSection />
+      <SimplePricing />
+      <IntegrationSection />
+      <ConversationSection />
+      <Footer />
     </>
   );
 }

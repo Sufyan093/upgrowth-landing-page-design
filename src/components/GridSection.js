@@ -49,8 +49,8 @@ function GridSection() {
                                 <div className="col-span-2">
                                     <div className="grid place-items-center c">
                                         <h1 className='text-[48px] font-bold text-[#1C3C79]'>Word spreads fast</h1>
-                                        <div className="w-[70%]">
-                                            <p className='text-justify text-[21px]'>Your customers are your <strong>biggest advocates.</strong>Put their enthusiasm, positive reviews, and social media followings to work. You've done the hard work of gaining loyal customers, let UpGrowth take it from here.</p>
+                                        <div className="w-[70%] mt-8">
+                                            <p className='text-justify text-[21px] text-[#1C3C79]'>Your customers are your <strong>biggest advocates.</strong>Put their enthusiasm, positive reviews, and social media followings to work. You've done the hard work of gaining loyal customers,<strong>let UpGrowth take it from here.</strong></p>
                                         </div>
                                     </div>
                                 </div>

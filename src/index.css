@@ -1,3 +1,5 @@
+@import url("http://fonts.cdnfonts.com/css/sf-pro-display");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,6 +11,7 @@
 }
 body {
   background-color: #fafafa;
+  font-family: "SF Pro Display", sans-serif;
 }
 .upgrowth_title {
   font-style: normal;
@@ -118,4 +121,40 @@ body {
   -moz-transform: translate(0px, 50px);
   -ms-transform: translate(0px, 50px);
   -o-transform: translate(0px, 50px);
+}
+.integration-section {
+  position: relative;
+  z-index: 11;
+}
+.conversationSection {
+  z-index: 10;
+  transform: translate(0px, -160px);
+  -webkit-transform: translate(0px, -160px);
+  -moz-transform: translate(0px, -160px);
+  -ms-transform: translate(0px, -160px);
+  -o-transform: translate(0px, -160px);
+}
+.radius_custom {
+  border-top-right-radius: 400px 75px;
+}
+.peep_1 {
+  transform: translate(-192px, 115px);
+  -webkit-transform: translate(-192px, 115px);
+  -moz-transform: translate(-192px, 115px);
+  -ms-transform: translate(-192px, 115px);
+  -o-transform: translate(-192px, 115px);
+}
+.peep_2 {
+  transform: translate(-225px, 115px);
+  -webkit-transform: translate(-225px, 115px);
+  -moz-transform: translate(-225px, 115px);
+  -ms-transform: translate(-225px, 115px);
+  -o-transform: translate(-225px, 115px);
+}
+.peep_3 {
+  transform: translate(-406px, 115px);
+  -webkit-transform: translate(-406px, 115px);
+  -moz-transform: translate(-406px, 115px);
+  -ms-transform: translate(-406px, 115px);
+  -o-transform: translate(-406px, 115px);
 }

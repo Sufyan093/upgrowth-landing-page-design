@@ -52,7 +52,7 @@ export default function Navbar() {
                                                     key={item.name}
                                                     href={item.href}
                                                     className={classNames(
-                                                        item.current ? 'bg-gray-900 text-white' : 'text-white hover:bg-gray-700 hover:text-white',
+                                                        item.current ? 'text-white' : 'text-white hover:text-white',
                                                         'px-3 py-2 rounded-md text-sm font-medium'
                                                     )}
                                                     aria-current={item.current ? 'page' : undefined}
@@ -66,13 +66,13 @@ export default function Navbar() {
                                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 sm:gap-2 md:gap-4 lg:gap-4">
                                     <a
                                         href="#"
-                                        className="text-sm font-medium rounded-full p-1 text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                                        className="text-sm font-medium rounded-full p-1 text-white focus:outline-none"
                                     >
                                         <span className="">Sign In</span>
                                     </a>
                                     <a
                                         href=""
-                                        className="text-sm font-medium rounded-full p-1 text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                                        className="text-sm font-medium rounded-full p-1 text-white focus:outline-none"
                                     >
                                         <span className="">Start Free Trail</span>
                                     </a>
