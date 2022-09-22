@@ -7,10 +7,10 @@ export default function SimplePricing() {
             <div className="mb-28">
                 <div className="block">
                     <div>
-                        <h1 className="text-[56px] font-bold text-center">Simple Pricing.</h1>
+                        <h1 className="xl:text-[56px] lg:text-[56px] md:text-[56px] sm:text-[48px] xs:text-[40px] xxs:text-[36px] font-bold text-center text-[#333333]">Simple Pricing.</h1>
                     </div>
-                    <div className="flex justify-center sm:flex-wrap md:gap-4 lg:gap-8 mt-14">
-                        <div className="bg-white shadow-lg	w-[26rem] rounded-[20px] p-6 lg:h-[450px] px-10">
+                    <div className="flex justify-center sm:flex-wrap xs:flex-wrap xxs:flex-wrap md:gap-4 lg:gap-8 mt-14  sm:gap-4 xs:gap-4 xxs:gap-4 xl:px-0 lg:px-0 md-px-0 sm:px-4 xs:px-4 xxs:px-4">
+                        <div className="bg-white shadow-lg	w-[26rem] rounded-[20px] p-6 xl:h-[450px] lg:h-[450px] md:h-[450px] sm:h-[450px] xs:h-[450px] xxs:h-[450px] px-10">
                             <div className="flex justify-center">
                                 <span className="text-center text-white bg-[#2E4E8B] rounded-full text-sm font-medium py-1 px-8 uppercase">Basic</span>
                             </div>
@@ -34,7 +34,7 @@ export default function SimplePricing() {
                         </div>
 
 
-                        <div className="bg-white shadow-lg	w-[26rem] rounded-[20px] p-6 lg:h-[450px] px-10">
+                        <div className="bg-white shadow-lg	w-[26rem] rounded-[20px] p-6 xl:h-[450px] lg:h-[450px] md:h-[450px] sm:h-[450px] xs:h-[450px] xxs:h-auto px-10">
                             <div className="flex justify-center">
                                 <span className="text-center text-white bg-[#53A89A] rounded-full text-sm font-medium py-1 px-8 uppercase">Premium</span>
                             </div>

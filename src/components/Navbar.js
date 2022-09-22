@@ -19,16 +19,16 @@ export default function Navbar() {
             <Disclosure as="nav" className="">
                 {({ open }) => (
                     <>
-                        <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                        <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 lg:pt-6 md:pt-6">
                             <div className="relative flex h-16 items-center justify-between">
                                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                                     {/* Mobile menu button*/}
                                     <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                                         <span className="sr-only">Open main menu</span>
                                         {open ? (
-                                            <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                                            <XMarkIcon className="block h-6 w-6 text-white" aria-hidden="true" />
                                         ) : (
-                                            <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+                                            <Bars3Icon className="block h-6 w-6 text-white" aria-hidden="true" />
                                         )}
                                     </Disclosure.Button>
                                 </div>
@@ -46,8 +46,12 @@ export default function Navbar() {
                                         />
                                     </div> */}
                                     <div className="hidden sm:ml-6 sm:block">
-                                        <div className="flex space-x-4">
-                                            {navigation.map((item) => (
+                                        <div className="flex lg:space-x-12 md:space-x-8 items-center">
+                                            <a href="#" className="text-2xl	font-extrabold text-[#FAFAFA]">UpGrowth</a>
+                                            <a href="#" className="text-xl font-bold text-[#FAFAFA]">Features</a>
+                                            <a href="#" className="text-xl font-bold text-[#FAFAFA]">Industries</a>
+                                            <a href="#" className="text-xl font-bold text-[#FAFAFA]">Pricing</a>
+                                            {/* {navigation.map((item) => (
                                                 <a
                                                     key={item.name}
                                                     href={item.href}
@@ -59,24 +63,17 @@ export default function Navbar() {
                                                 >
                                                     {item.name}
                                                 </a>
-                                            ))}
+                                            ))} */}
                                         </div>
                                     </div>
                                 </div>
-                                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 sm:gap-2 md:gap-4 lg:gap-4">
-                                    <a
-                                        href="#"
-                                        className="text-sm font-medium rounded-full p-1 text-white focus:outline-none"
-                                    >
+                                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 sm:gap-2 md:gap-4 lg:gap-8">
+                                    <a href="#" className="text-xl font-medium text-[#FAFAFA]">
                                         <span className="">Sign In</span>
                                     </a>
-                                    <a
-                                        href=""
-                                        className="text-sm font-medium rounded-full p-1 text-white focus:outline-none"
-                                    >
+                                    <a href="#" className="text-xl  font-medium text-[#FAFAFA]">
                                         <span className="">Start Free Trail</span>
                                     </a>
-
                                 </div>
                             </div>
                         </div>

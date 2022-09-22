@@ -13,18 +13,11 @@ body {
   background-color: #fafafa;
   font-family: "SF Pro Display", sans-serif;
 }
-.upgrowth_title {
-  font-style: normal;
-  color: #333333;
-  font-size: 48px;
-  font-weight: 700;
-}
 .upgrowth_btn {
   color: #7e7e7e;
 }
-.upgrowth_btn:active {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background: #fff;
+.upgrowth_btn {
+  position: relative;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
@@ -35,18 +28,9 @@ body {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-.upgrowth_btn:focus {
+.upgrowth_btn:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background: #fff;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  background: #ffffff;
 }
 .Referrals_title {
   color: #1a1a1a;
@@ -60,13 +44,13 @@ body {
 .referrals_size {
   color: #6f6f6f;
 }
-.promo-card {
+/* .promo-card {
   transform: translate(36px, 200px);
   -webkit-transform: translate(36px, 200px);
   -moz-transform: translate(36px, 200px);
   -ms-transform: translate(36px, 200px);
   -o-transform: translate(36px, 200px);
-}
+} */
 .coummunity_bg {
   position: relative;
   height: auto;
@@ -76,7 +60,7 @@ body {
   background-size: cover;
 }
 .GridSection_bg {
-  margin-top: -10rem;
+  /* margin-top: -10rem; */
   height: auto;
   background-color: #8baecd;
 }
@@ -113,7 +97,7 @@ body {
   -o-transform: translate(100px, 0px);
 }
 .person_window_parent .person_window {
-  width: 70%;
+  width: 80%;
 }
 .grid-transform-content {
   transform: translate(0px, 50px);
@@ -136,25 +120,4 @@ body {
 }
 .radius_custom {
   border-top-right-radius: 400px 75px;
-}
-.peep_1 {
-  transform: translate(-192px, 115px);
-  -webkit-transform: translate(-192px, 115px);
-  -moz-transform: translate(-192px, 115px);
-  -ms-transform: translate(-192px, 115px);
-  -o-transform: translate(-192px, 115px);
-}
-.peep_2 {
-  transform: translate(-225px, 115px);
-  -webkit-transform: translate(-225px, 115px);
-  -moz-transform: translate(-225px, 115px);
-  -ms-transform: translate(-225px, 115px);
-  -o-transform: translate(-225px, 115px);
-}
-.peep_3 {
-  transform: translate(-406px, 115px);
-  -webkit-transform: translate(-406px, 115px);
-  -moz-transform: translate(-406px, 115px);
-  -ms-transform: translate(-406px, 115px);
-  -o-transform: translate(-406px, 115px);
 }

@@ -7,22 +7,34 @@
   background-repeat: no-repeat;
   background-position: bottom;
 }
-.header_title {
+/* .header_title {
   font-style: normal;
   font-weight: 800;
-  line-height: 50px;
+  font-size: 66px;
+  line-height: 80px;
   align-items: center;
   letter-spacing: 0.4px;
-}
-.one_line {
-  font-size: 58px;
-}
-
+} */
 .I_color {
-  font-size: 58px;
   opacity: 0.7;
   color: #ffffff;
 }
 .cartoon_img {
-  transform: translate(363px, -188px);
+  transform: translate(380px, -188px);
+  -webkit-transform: translate(380px, -188px);
+  -moz-transform: translate(380px, -188px);
+  -ms-transform: translate(380px, -188px);
+  -o-transform: translate(380px, -188px);
+}
+@media screen and (min-width: 1024px) {
+  /* .promo-card {
+    width: 50%;
+    transform: translate(36px, 160px);
+  } */
+  .card_margin {
+    margin-top: 1%;
+  }
+  .integration-width {
+    width: 95%;
+  }
 }
