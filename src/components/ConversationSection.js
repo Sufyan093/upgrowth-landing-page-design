@@ -17,7 +17,7 @@ export default function ConversationSectioon() {
                                         More than 80% of small businesses report gaining their customers via word-of-mouth.<br></br> <i>Join the conversation.</i>
                                     </h1>
                                 </div>
-                                <div className="xl:mt-24 lg:mt-24 md:mt-24 sm:mt-20 xs:mt-16 xxs:mt-16 xl:ml-40 lg:ml-32 md:ml-16 flex xl:justify-unset lg:justify-unset md:justify-unset sm:justify-center xs:justify-center xxs:justify-center">
+                                <div className="xl:mt-24 lg:mt-24 md:mt-24 sm:mt-20 xs:mt-16 xxs:mt-16 xl:ml-40 lg:ml-32 md:ml-16 flex xl:justify-start lg:justify-start md:justify-start sm:justify-center xs:justify-center xxs:justify-center">
                                     <button class="bg-white hover:bg-gray-100 py-3 px-14 rounded-full shadow text-xl font-semibold text-[#101F55]">
                                         Start for free
                                     </button>

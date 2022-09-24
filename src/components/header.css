@@ -19,13 +19,13 @@
   opacity: 0.7;
   color: #ffffff;
 }
-.cartoon_img {
+/* .cartoon_img {
   transform: translate(380px, -188px);
   -webkit-transform: translate(380px, -188px);
   -moz-transform: translate(380px, -188px);
   -ms-transform: translate(380px, -188px);
   -o-transform: translate(380px, -188px);
-}
+} */
 @media screen and (min-width: 1024px) {
   /* .promo-card {
     width: 50%;

@@ -23,7 +23,7 @@ function Header() {
                                     Strategically grow your business.<br></br>
                                     Build your brand with word-of-mouth marketing
                                 </p>
-                                <div className="mt-16 flex xl:justify-unset lg:justify-unset md:justify-unset sm:justify-center xs:justify-center xxs:justify-center">
+                                <div className="mt-16 flex xl:justify-start lg:justify-start md:justify-start sm:justify-center xs:justify-center xxs:justify-center">
                                     <button class="bg-white hover:bg-gray-100 py-3 px-14 rounded-full shadow text-xl font-semibold text-brand-color">
                                         Start for free
                                     </button>
