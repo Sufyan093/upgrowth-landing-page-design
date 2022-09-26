@@ -50,7 +50,7 @@ function GridSection() {
                                     <div className="grid place-items-center">
                                         <h1 className='xl:text-[48px] lg:text-[48px] md:text-[48px] sm:text-[48px] xs:text-[36px] xxs:text-[34px]     font-bold text-[#1C3C79]'>Word spreads fast</h1>
                                         <div className="w-[70%] mt-8">
-                                            <p className='text-justify text-[21px] text-[#1C3C79]'>Your customers are your <strong>biggest advocates.</strong>Put their enthusiasm, positive reviews, and social media followings to work. You've done the hard work of gaining loyal customers,<strong>let UpGrowth take it from here.</strong></p>
+                                            <p className='break-all text-justify text-[21px] text-[#1C3C79]'>Your customers are your <strong>biggest advocates.</strong>Put their enthusiasm, positive reviews, and social media followings to work. You've done the hard work of gaining loyal customers,<strong>let UpGrowth take it from here.</strong></p>
                                         </div>
                                     </div>
                                 </div>

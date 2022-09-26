@@ -3,16 +3,16 @@ import graph from '../images/Group.png'
 function UpgrowthFeatures() {
     return (
         <>
-            <div className="flex justify-center mt-32 pb-28">
+            <div className="flex justify-center xl:mt-32 lg:mt-32 md:mt-32 sm:mt-16 xs:mt-12 xxs:mt-8 xl:pb-28 lg:pb-28 md:pb-20 sm:pb-16 xs:pb-8 xxs:pb-4">
                 <div className="container">
                     <div className="mx-auto">
                         <div className="row-span-full">
-                            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-2 md:gap-4 lg:gap-6 p-5 xl:place-items-stretch lg:place-items-stretch md:place-items-center sm:place-items-center xs:place-items-center xxs:place-items-center">
+                            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:gap-6 md:gap-4 lg:gap-6 sm:gap-4 xs:gap-4 xxs:gap-4   p-5 xl:place-items-stretch lg:place-items-stretch md:place-items-center sm:place-items-center xs:place-items-center xxs:place-items-center">
                                 <div className="xl:ml-20 lg:ml-20 md:ml-20">
                                     <div className="xl:text-unset lg:text-unset md:text-unset sm:text-unset xs:text-center xxs:text-center">
                                         <h1 className="upgrowth_title xl:text-5xl lg:text-5xl md:text-5xl sm:text-4xl xs:text-2xl xxs:text-2xl text-[#333333] font-bold">UpGrowth features: </h1>
                                     </div>
-                                    <div className="flex flex-col gap-8 mt-10 py-4">
+                                    <div className="flex flex-col xl:gap-8 lg:gap-8 md:gap-8 sm:gap-4 xs:gap-2 xxs:gap-2 xl:mt-10 lg:mt-10 md:mt-10 sm:mt-2 xs:mt-2 xxs:mt-2">
                                         <div className="flex items-center gap-4 upgrowth_btn xl:w-[80%] lg:w-[80%] md:w-[80%] sm:w-[100%] xs:w-[100%] xxs:w-[100%]">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 hover:text-brand-color">
                                                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -84,10 +84,10 @@ function UpgrowthFeatures() {
                                             </div>
                                         </div>
                                         <div className="flex xl:justify-unset lg:justify-unset md:justify-unset sm:justify-center xs:justify-end xxs:justify-end">
-                                            <div className="p-4 bg-white border rounded-lg shadow-md xl:w-1/3 lg:w-[50%] md:w-[50%] sm:w-[40%] xs:w-[40%] xxs:w-[40%] promo-card grid h-fit xl:relative lg:relative md:relative sm:absolute xs:absolute xxs:absolute xl:translate-x-10 xl:translate-y-[200px] lg:translate-x-10 lg:translate-y-[160px] md:translate-x-10 md:translate-y-[160px] sm:-translate-x-24 sm:translate-y-[150px]  xs:-translate-x-36 xs:translate-y-[120px] xxs:-translate-x-32 xxs:translate-y-[100px]">
+                                            <div className="p-4 bg-white border rounded-lg shadow-md xl:w-1/3 lg:w-[50%] md:w-[50%] sm:w-[40%] xs:w-[40%] xxs:w-[40%] promo-card grid h-fit xl:relative lg:relative md:relative sm:absolute xs:absolute xxs:absolute xl:translate-x-10 xl:translate-y-[200px] lg:translate-x-10 lg:translate-y-[160px] md:translate-x-10 md:translate-y-[160px] sm:-translate-x-24 sm:translate-y-[150px]  xs:-translate-x-36 xs:translate-y-[120px] xxs:-translate-x-32 xxs:translate-y-[100px] xl:max-h-[160px] lg:max-h-[150px] md:max-h-[155px] sm:max-h-[150px] xs:max-h-[135px] xxs:max-h-[130px]">
                                                 <span className="xl:text-base lg:text-base md:text-base sm:text-base font-semibold xs:text-sm xxs:text-xs">Promo Code : </span>
-                                                <span className="xl:text-4xl lg:text-4xl md:text-4xl sm:text-4xl xs:text-sm xxs:text-sm" style={{ color: "#788DF5" }}>45%</span>
-                                                <span className="text-xs text-left" style={{ color: "#6F6F6F" }}>Your direct Promo Code usages generated 45% of this campaign’s signups, with 61 referrals.</span>
+                                                <span className="xl:text-4xl lg:text-4xl md:text-4xl sm:text-4xl xs:text-sm xxs:text-sm text-[#788DF5]">45%</span>
+                                                <span className="xl:text-xs lg:text-xs md:text-xs sm:text-xs xs:text-[11px] xxs:text-[9px] text-left text-[#6F6F6F]">Your direct Promo Code usages generated 45% of this campaign’s signups, with 61 referrals.</span>
                                             </div>
                                             <img src={graph} className="xl:w-3/5 lg:w-3/5 md:w-3/5 sm:w-[73%] xs:w-[70%] xs:h-[70%] xxs:w-[70%] xxs:h-[70%]"></img>
                                         </div>

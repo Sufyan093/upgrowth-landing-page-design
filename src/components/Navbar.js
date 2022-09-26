@@ -32,19 +32,22 @@ export default function Navbar() {
                                         )}
                                     </Disclosure.Button>
                                 </div>
-                                <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                                    {/* <div className="flex flex-shrink-0 items-center">
-                                        <img
-                                            className="block h-8 w-auto lg:hidden"
+                                <div className="flex flex-1 items-center xl:justify-start lg:justify-start md:justify-start sm:items-stretch sm:justify-end xs:justify-end xxs:justify-end">
+                                    <div className="flex flex-shrink-0 items-center">
+                                        <a href="#" className="block h-8 w-auto md:hidden text-2xl font-extrabold text-[#FAFAFA]">UpGrowth</a>
+
+                                        {/* <img
+
+                                            className="block h-8 w-auto md:hidden"
                                             src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                                             alt="Your Company"
-                                        />
-                                        <img
+                                        /> */}
+                                        {/* <img
                                             className="hidden h-8 w-auto lg:block"
                                             src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                                             alt="Your Company"
-                                        />
-                                    </div> */}
+                                        /> */}
+                                    </div>
                                     <div className="hidden sm:ml-6 sm:block">
                                         <div className="flex lg:space-x-12 md:space-x-8 items-center">
                                             <a href="#" className="text-2xl	font-extrabold text-[#FAFAFA]">UpGrowth</a>
@@ -67,7 +70,7 @@ export default function Navbar() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 sm:gap-2 md:gap-4 lg:gap-8">
+                                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 sm:gap-2 md:gap-6 lg:gap-8 xl:flex lg:flex md:flex sm:hidden xs:hidden xxs:hidden">
                                     <a href="#" className="text-xl font-medium text-[#FAFAFA]">
                                         <span className="">Sign In</span>
                                     </a>

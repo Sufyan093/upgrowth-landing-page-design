@@ -42,7 +42,7 @@ export default function Footer() {
 
                                 </div>
 
-                                <div className="text-white">
+                                <div className="text-white xl:block lg:block md:block sm:hidden xs:hidden xxs:hidden">
                                     <h2 className="font-semibold text-base">PRODUCTS</h2>
                                     <ul className="mt-4">
                                         <li><a href="#" className='text-bast font-normal text-[#878FAA] hover:text-white'>Features Overview</a></li>
@@ -56,7 +56,7 @@ export default function Footer() {
                                     </ul>
                                 </div>
 
-                                <div className="text-white">
+                                <div className="text-white xl:block lg:block md:block sm:hidden xs:hidden xxs:hidden">
                                     <h2 className="font-semibold text-base" >RESOURCES</h2>
                                     <ul className="mt-4">
                                         <li><a href="#" className='text-bast font-normal text-[#878FAA] hover:text-white'>Industries</a></li>
